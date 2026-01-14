@@ -57,26 +57,27 @@
     color: white;
     text-align: center;
     font-size: 32px;
+
 }
 #cards{
-    margin-top: 25px;
+    margin-top: 50px;
     display: grid;
     grid-auto-flow: column;
+    justify-content: center;
+    gap: 30px;
 }
 .card{
-    margin-left: 50px;
+
 
 }
 #bruna{
     display: none;
 }
 #setaEsquerda{
-    display: none;
-    margin-top: 55%;
-
+    opacity: 0.01;
 }
 .seta{
-    margin-left: 55%;
+    margin-top: 55px;
     cursor: pointer;
 }
 .seta:hover{
